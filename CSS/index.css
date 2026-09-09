@@ -63,3 +63,52 @@ a:hover {
     object-fit: cover;
     
 }
+
+.sobre {
+    border: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 35px;
+    margin-top: 20px;
+}
+p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.menu-cardapio-itens {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.menu-cardapio-item {
+    border: 2px solid  #0A3169;
+    border-radius: 5px;
+    width: 25%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+h3 {
+    font-size: 25px;
+    color: #0A3169;
+    font-weight: bold;
+}
+
+.menu-cardapio-item p {
+    font-size: 20px;
+}
+
+footer {
+    background-color: #0A3169;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
