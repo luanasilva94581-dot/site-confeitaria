@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cardápio</title>
+
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/Cardapio.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400&family=Macondo&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="div-logo">
+            <img class="logotipo" src="../IMG/logo.png" alt="Logotipo da confeitaria">
+        </div>
+
+        <div class="div-menu">
+
+            <h1>Confeitaria Sempre Doce</h1>
+
+            <br>
+
+            <nav>
+                <ul>
+
+                    <li>
+                        <a href="../index.html">Início</a>
+                    </li>
+
+                    <li>
+                        <a href="sobre.html">Sobre</a>
+                    </li>
+
+                    <li>
+                        <a href="cardapio.html">Cardápio</a>
+                    </li>
+
+                    <li>
+                        <a href="contato.html">Contato</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <section class="sobre">
+
+        <h2>Nosso Cardápio</h2>
+
+        <div class="menu-cardapio-itens">
+
+            <!-- BOLO HOMEM ARANHA -->
+
+            <div class="menu-cardapio-item">
+
+                <h3>Bolo de Spider-man</h3>
+
+                <div class="div-card">
+
+                    <img class="img-cardapio" src="../IMG/cake_spidermen.jpg" alt="Bolo de chocolate do Homem-Aranha">
+
+                </div>
+
+                <p>
+                    Um clássico irresistível
+                    com camadas de chocolate.
+                </p>
+
+                <div class="Reserva">
+                    <button class="button-reserva" onclick="abrir()">
+                        Reserva
+                    </button>
+                </div>
+
+            </div>
+
+
+            <!-- BOLO VANGOGH -->
+
+            <div class="menu-cardapio-item">
+
+                <h3>Bolo Vangogh</h3>
+
+                <div class="div-card">
+
+                    <img class="img-cardapio" src="../IMG/merry_vangonh.jpg" alt="Bolo de morango Merry Vangogh">
+
+                </div>
+
+                <p>
+                    Fresco e frutado, perfeito
+                    para qualquer ocasião.
+                </p>
+
+                <div class="Reserva">
+                    <button class="button-reserva" onclick="abrir()">
+                        Reserva
+                    </button>
+                </div>
+
+            </div>
+
+
+            <!-- BOLO THEO -->
+
+            <div class="menu-cardapio-item">
+
+                <h3>Bolo theo_cake </h3>
+
+                <div class="div-card">
+
+                    <img class="img-cardapio" src="../IMG/theo_cake.jpg" alt="Bolo de Cenoura Theo Cake">
+
+                </div>
+
+                <p>
+                    Uma delícia tradicional
+                    com cobertura de chocolate.
+                </p>
+
+                <div class="Reserva">
+                    <button class="button-reserva" onclick="abrir()">
+                        Reserva
+                    </button>
+                </div>
+
+            </div>
+
+
+            <!-- BOLO ALICE -->
+
+            <div class="menu-cardapio-item">
+
+                <h3>Bolo Alice</h3>
+
+                <div class="div-card">
+
+                    <img class="img-cardapio" src="../IMG/alicecake.jpg" alt="Alice Cake">
+
+                </div>
+
+                <p>
+                    Tudo pode se tornar possível
+                    com essa delícia.
+                </p>
+
+                <div class="Reserva">
+                    <button class="button-reserva" onclick="abrir()">
+                        Reserva
+                    </button>
+                </div>
+
+            </div>
+
+
+            <!-- BOLO LA CASA DE PAPEL -->
+
+            <div class="menu-cardapio-item">
+
+                <h3>Bolo La Casa de Papel</h3>
+
+                <div class="div-card">
+
+                    <img class="img-cardapio" src="../IMG/lacake.jpg" alt="Bolo La Casa de Papel">
+
+                </div>
+
+                <p>
+                    A resistência continua.
+                </p>
+
+                <div class="Reserva">
+                    <button class="button-reserva" onclick="abrir()">
+                        Reserva
+                    </button>
+                </div>
+
+            </div>
+
+
+            <!-- BOLO BELA E A FERA -->
+
+            <div class="menu-cardapio-item">
+
+                <h3>Bolo BELA</h3>
+
+                <div class="div-card">
+
+                    <img class="img-cardapio" src="../IMG/belacake.jpg" alt="Bolo Bela e a Fera">
+
+                </div>
+
+                <p>
+                    Até a fera pode amar.
+                </p>
+
+                <div class="Reserva">
+                    <button class="button-reserva" onclick="abrir()">
+                        Reserva
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <div id="fade" class="hide"></div>
+
+    <div id="modal" class="hide">
+        <div class="centralizado">
+            <h2>Realizar Reserva</h2>
+            <img src="../IMG/qrcode-pix.png" alt="QRcode Pix">
+        </div>
+
+        <div class="fechar">
+            <a href="">Fechar</a>
+        </div>
+
+    </div>
+
+
+    <script src="../js/cardapio.js"></script>
+
+</body>
+
+</html>
